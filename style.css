@@ -1,0 +1,257 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #c4bebe;
+    color: #000;
+}
+header h1 , p{
+    text-align: center;
+    margin-top: 20px;
+}
+header h1{
+    font-size: 38px;
+}
+header p{
+    font-size: 15px;
+}
+header b{
+    background-color: #000;
+    color: #fff;
+    width: fit-content;
+    padding: 3px;
+}
+header .img img{
+    width: 100%;
+    height: fit-content;
+}
+header .text{
+    position: absolute;
+    color: #fff;
+    margin-top: 30%;
+    margin-left: 30px;
+}
+header .text h4{
+    font-size: 30px;
+}
+.text h2{
+    font-size: 46px;
+}
+.text button{
+    border: none;
+    font-size: 24px;
+    background-color: #f0f0f0;
+    color: #000;
+    padding: 5px;
+}
+.text button:hover{
+    background-color: #7e7a7a;
+    color: #fff;
+}
+nav {
+    display: flex;
+}
+.main-content{
+    flex-basis: 65%;
+    width: fit-content;
+    margin-left: 30px;
+}
+
+.main-content .item-img{
+    margin-left: 30px;
+}
+.item-content{
+    background-color: #fff;
+    color: #000;
+}
+.item-img img{
+    width: 760px;
+}
+.main-content .item-img p{
+    text-align: justify;
+    width: 760px;
+}
+.item-img .btn-click button{
+    font-size: 20px;
+    background-color:#fff;
+    color: #000;
+    padding: 5px;
+}
+.item-img .btn-click button:hover{
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+.item-img hr{
+    opacity: 0.5;
+    margin-top: 40px;
+}
+.item-img .comment-img img{
+    width: 100px;
+    height: fit-content;
+    padding: 15px;
+}
+.item-img .comment-img{
+    display: flex;
+    width: 760px;
+    margin-top: 20px;
+}
+.comment-img p{
+    margin-left: 40px;
+}
+.comment-img b{
+    font-size: 24px;
+}
+#comment{
+    display: none;
+}
+#comment2{
+    display: none;
+}
+#comment3{
+    display: none;
+}
+footer{
+    width: 100%;
+    background-color: #7e7a7a;
+    color: #fff;
+}
+/* ......footer........ */
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: #111;
+    margin-top: 10px;
+}
+footer:hover{
+    background-color: #868080;
+}
+.footer a{
+    background-color: #fff;
+    color: #111;
+    width: fit-content;
+    font-size: 20px;
+}
+#ptag{
+    text-align: center;
+    opacity: 0.6;
+}
+/* ............footer end........... */
+.right-sidebar{
+    flex-basis: 28%;
+    margin-left: 30px;
+}
+.right-sidebar .sidebar-img{
+    height: 360px;
+    background-color: #000;
+    color: #fff;
+}
+.right-sidebar .sidebar-img img{
+    width: 100%;
+    height: fit-content;
+}
+.right-sidebar .img-text img{
+    width: 60px;
+    height: fit-content;
+    margin-left: 20px;
+}
+.right-sidebar .img-text{
+    display: flex;
+}
+.right-sidebar .img-text h4{
+    margin-left: 20px;
+}
+.right-sidebar .sidebar-text h3{
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+}
+.right-sidebar .sidebar-text{
+    background-color: #fff;
+    color: #000;
+}
+.sidebar-text .img-text:hover{
+    background-color: #ccc;
+    color: #000;
+}
+.sidebar-ads h3{
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+}
+.sidebar-ads{
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+}
+.sidebar-ads .div-sid{
+    width: 280px;
+    height: 220px;
+    background-color: #ccc;
+    margin: auto;
+}
+.sidebar-ads .div-sid p{
+    padding-top: 100px;
+}
+ .side{
+    height: 200px;
+}
+.side ul li{
+    list-style: none;
+    display: inline-block;
+    background-color: #dbdbdb;
+    color: #000;
+    margin: 5px;
+    font-size: 15px;
+}
+.side ul li:first-child{
+    background-color: #000;
+    color: #fff;
+}
+.side ul li:hover{
+    background-color: #000;
+    color: #fff;
+}
+.sidebar-img2 div{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.sidebar-img2{
+    height: 300px;
+    background-color: #fff;
+    color: #000;
+}
+.sidebar-img2 img{
+    width: 150px;
+    height: fit-content;
+    margin: auto;
+}
+.sidebar-img2 h2{
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+}
+.sidebar-img2 input{
+    width: 95%;
+    font-size: 22px;
+    padding: 5px;
+}
+.sidebar-img2 button{
+    font-size: 20px;
+    background-color: tomato;
+    color: #000;
+    padding: 5px;
+    width: 100%;
+    border: none;
+}
+.sidebar-img2 button:hover{
+    background-color: #a5a2a2;
+    color: #000;
+    cursor: pointer;
+}
